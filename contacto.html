@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto / FAQ - Mesa Quince</title>
+  <link rel="stylesheet" href="https://use.typekit.net/gjx2eue.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="img/Favicon.png" type="image/png">
+</head>
+
+
+<body>
+  <!-- NAVBAR -->
+<nav class="navbar">
+    <div class="logo">MESAQUINCE</div>
+    
+    <!-- Checkbox oculto para controlar el menú -->
+    <input type="checkbox" id="menu-toggle" class="menu-toggle">
+    
+    <!-- Icono hamburguesa -->
+    <label for="menu-toggle" class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+    </label>
+    
+    <!-- Links del menú -->
+    <ul class="nav-links">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="informacion.html">Restaurant</a></li>
+        <li><a href="comollegar.html">Cómo llegar</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+    </ul>
+</nav>
+
+
+ <!-- CONTENIDO -->
+  <main>
+  <h2 class="contacto-subtitulo">Déjanos tu consulta</h2>
+  <p class="contacto-p">Estamos para ayudarte</p>
+
+  <div class="contacto-contenedor">
+    <form action="#" method="post" class="form-contacto">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required>
+
+      <label for="apellido">Apellido:</label>
+      <input type="text" id="apellido" name="apellido" required>
+
+      <label for="motivo">Motivo:</label>
+      <input type="text" id="motivo" name="motivo" required>
+
+      <label for="correo">Correo:</label>
+      <input type="email" id="correo" name="correo" required>
+
+      <label for="comentarios">Comentarios:</label>
+      <textarea id="comentarios" name="comentarios" rows="5" required></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+
+    <!-- Mosaico de imágenes (nNOSE COMO LO VOY A DISTRIBUIR PARA VERSION MOBILE) -->
+    <div class="mosaico-imagenes">
+      <img src="img/Papas1.webp" class="Papas1" alt="Papas1"> <!-- Imagen 1 -->
+      <div class="columna-derecha">
+        <img src="img/Proboleta2.webp" alt="Proboleta2">
+        <img src="img/Carne3.webp" alt="Carne3">
+        <img src="img/Carne4.webp" alt="Carne4">
+        <img src="img/Carne5.webp" alt="Carne5">
+      </div>
+    </div>
+  </div>
+
+  <!-- Preguntas frecuentes -->
+<section class="faq-section">
+  <h2 class="contacto-subtitulo">Preguntas frecuentes</h2>
+
+  <div class="faq-item">
+    <h3 class="pregunta">¿Es necesario reservar?</h3>
+    <p class="respuesta">No siempre, pero recomendamos reservar especialmente los fines de semana o días festivos.<br></br> Se puede reservar online o por teléfono</p>
+  
+  </div>
+
+  <div class="faq-item">
+    <h3 class="pregunta">¿Aceptan grupos grandes o eventos privados?</h3>
+    <p class="respuesta">Sí, consultanos para coordinar tu evento.</p>
+  </div>
+
+  <div class="faq-item">
+    <h3 class="pregunta">Sobre el menú y comidas </h3>
+    <p class="respuesta">Tenemos varias opciones para quienes prefieren platos sin carne.<br></br>El menú cambia según la temporada,  por que siempre usamos ingredientes frescos y de estación.
+Podemos adaptar algunos platos según tu necesidad (GF, V).</p>
+  </div>
+</section>
+</main>
+
+<!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-contenido">
+      <p class="footer-logo">MESAQUINCE</p>
+      <p class="footer-texto">C/ de Muntaner, 189, L'Eixample, 08036 Barcelona, España</p>
+      <p class="footer-texto">Tel: +34 123 456 789</p>
+      <p class="footer-copy">&copy; 2025 Mesaquince · Todos los derechos reservados</p>
+    </div>
+  </footer>
+</body>
+
+</html>
